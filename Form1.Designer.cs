@@ -245,7 +245,6 @@
 			this.loopProgressBar.Name = "loopProgressBar";
 			this.loopProgressBar.Size = new System.Drawing.Size(117, 27);
 			this.loopProgressBar.Step = 1;
-			this.loopProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
 			this.loopProgressBar.TabIndex = 15;
 			this.loopProgressBar.Value = 1;
 			// 

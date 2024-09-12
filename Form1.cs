@@ -29,9 +29,8 @@ namespace wfa_pedal
 		private readonly Color ledColorGreen = Color.Green;
 		private readonly Color ledColorBlue = Color.Blue;
 
-		private DateTime tStart = DateTime.Now;
-		private DateTime tEnd = DateTime.Now;
-
+		private DateTime tStart = DateTime.Now; //Loop start time
+		private DateTime tEnd = DateTime.Now; //Loop end time
 		private const int ms = 60000; //60k ms per minute
 		private const int barDivision = 4; //4=Crotchets; 8=Quavers
 		private int bpm = 120;
